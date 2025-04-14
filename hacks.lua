@@ -1668,11 +1668,11 @@ local function ZZVD_fake_script() -- D4CClonesButton.ButtonManager
 	
 			UserInputService.InputEnded:Connect(function(input)
 				if input.KeyCode == Enum.KeyCode.Three then
-					holdingF3 = false
+					holding3 = false
 				elseif input.KeyCode == Enum.KeyCode.Two then
 					holding2 = false
 				elseif input.KeyCode == Enum.KeyCode.Four then
-					holdingF4 = false
+					holding4 = false
 				end
 			end)
 			
