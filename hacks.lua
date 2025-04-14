@@ -488,7 +488,7 @@ D4CClones.BorderSizePixel = 0
 D4CClones.Position = UDim2.new(0.0825242698, 0, 0.65625, 0)
 D4CClones.Size = UDim2.new(0, 200, 0, 50)
 D4CClones.Font = Enum.Font.ArialBold
-D4CClones.Text = "D4C Clone Spam (F2, F3, F4)"
+D4CClones.Text = "D4C Clone Spam (2, 3, 4)"
 D4CClones.TextColor3 = Color3.fromRGB(0, 0, 0)
 D4CClones.TextScaled = true
 D4CClones.TextSize = 14.000
@@ -1613,14 +1613,14 @@ local function ZZVD_fake_script() -- D4CClonesButton.ButtonManager
 			local InputEvent = ReplicatedStorage:WaitForChild("Main"):WaitForChild("Input")
 			local DeathEvent = ReplicatedStorage:WaitForChild("Main"):WaitForChild("Death")
 	
-			local holdingF2 = false
-			local holdingF3 = false
-			local holdingF4 = false
+			local holding2 = false
+			local holding3 = false
+			local holding4 = false
 			local repeatRate = 0.2
 	
 			task.spawn(function()
 				while true do
-					if holdingF3 then
+					if holding3 then
 						local args = {
 							[1] = "Alternate",
 							[2] = "Clone"
@@ -1633,7 +1633,7 @@ local function ZZVD_fake_script() -- D4CClonesButton.ButtonManager
 	
 			task.spawn(function()
 				while true do
-					if holdingF2 then
+					if holding2 then
 						local args = {
 							[1] = "Alternate",
 							[2] = "Death"
@@ -1646,7 +1646,7 @@ local function ZZVD_fake_script() -- D4CClonesButton.ButtonManager
 	
 			task.spawn(function()
 				while true do
-					if holdingF4 then
+					if holding4 then
 							for _, obj in pairs(game.Workspace:GetChildren()) do
 								if obj:FindFirstChild('Owner') then obj:Destroy() end
 							end
@@ -1657,21 +1657,21 @@ local function ZZVD_fake_script() -- D4CClonesButton.ButtonManager
 	
 			UserInputService.InputBegan:Connect(function(input, gameProcessed)
 				if gameProcessed then return end
-				if input.KeyCode == Enum.KeyCode.F3 then
-					holdingF3 = true
-				elseif input.KeyCode == Enum.KeyCode.F2 then
-					holdingF2 = true
-				elseif input.KeyCode == Enum.KeyCode.F4 then
-				holdingF4 = true
+				if input.KeyCode == Enum.KeyCode.Three then
+					holding3 = true
+				elseif input.KeyCode == Enum.KeyCode.Two then
+					holding2 = true
+				elseif input.KeyCode == Enum.KeyCode.Four then
+				holding4 = true
 				end
 			end)
 	
 			UserInputService.InputEnded:Connect(function(input)
-				if input.KeyCode == Enum.KeyCode.F3 then
+				if input.KeyCode == Enum.KeyCode.Three then
 					holdingF3 = false
-				elseif input.KeyCode == Enum.KeyCode.F2 then
-					holdingF2 = false
-				elseif input.KeyCode == Enum.KeyCode.F4 then
+				elseif input.KeyCode == Enum.KeyCode.Two then
+					holding2 = false
+				elseif input.KeyCode == Enum.KeyCode.Four then
 					holdingF4 = false
 				end
 			end)
