@@ -1767,6 +1767,7 @@ local function JAJHLXH_fake_script() -- ESplashButton_4.ButtonManager
 			print("EMERALD SPLASH ON")
 			ESB.Image = "http://www.roblox.com/asset/?id=6670322349"
 			while on == true do
+				wait()
 				UIS.InputBegan:Connect(function(ip, gpe)
 					if ip.KeyCode == Enum.KeyCode.LeftControl then
 						local args = {
