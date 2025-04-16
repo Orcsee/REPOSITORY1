@@ -665,7 +665,7 @@ ESplash_4.BorderSizePixel = 0
 ESplash_4.Position = UDim2.new(0.0825242698, 0, 0.129464284, 0)
 ESplash_4.Size = UDim2.new(0, 200, 0, 50)
 ESplash_4.Font = Enum.Font.ArialBold
-ESplash_4.Text = "Emerald Splash"
+ESplash_4.Text = "Emerald Splash (LeftCtrl, K)"
 ESplash_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 ESplash_4.TextScaled = true
 ESplash_4.TextSize = 14.000
@@ -1034,8 +1034,8 @@ FullView.TextSize = 14.000
 FullView.TextWrapped = true
 
 -- Scripts:
-wait(1)
-local function UAQN_fake_script() -- Frame.DragGUI 
+wait()
+local function SLYZ_fake_script() -- Frame.DragGUI 
 	local script = Instance.new('LocalScript', Frame)
 
 	--// Services
@@ -1092,8 +1092,8 @@ local function UAQN_fake_script() -- Frame.DragGUI
 		end
 	end)
 end
-coroutine.wrap(UAQN_fake_script)()
-local function XRPXYCC_fake_script() -- Tab1.Tab1 
+coroutine.wrap(SLYZ_fake_script)()
+local function XXYXH_fake_script() -- Tab1.Tab1 
 	local script = Instance.new('LocalScript', Tab1)
 
 	script.Parent.Activated:Connect(function()
@@ -1110,8 +1110,8 @@ local function XRPXYCC_fake_script() -- Tab1.Tab1
 		tabs.Executor.Visible = false
 	end)
 end
-coroutine.wrap(XRPXYCC_fake_script)()
-local function WFBWTO_fake_script() -- Tab2.Tab2 
+coroutine.wrap(XXYXH_fake_script)()
+local function UGQAZOC_fake_script() -- Tab2.Tab2 
 	local script = Instance.new('LocalScript', Tab2)
 
 	script.Parent.Activated:Connect(function()
@@ -1128,8 +1128,8 @@ local function WFBWTO_fake_script() -- Tab2.Tab2
 		tabs.Executor.Visible = false
 	end)
 end
-coroutine.wrap(WFBWTO_fake_script)()
-local function DAPCQKD_fake_script() -- Tab4.Tab4 
+coroutine.wrap(UGQAZOC_fake_script)()
+local function MRPAS_fake_script() -- Tab4.Tab4 
 	local script = Instance.new('LocalScript', Tab4)
 
 	script.Parent.Activated:Connect(function()
@@ -1146,8 +1146,8 @@ local function DAPCQKD_fake_script() -- Tab4.Tab4
 		tabs.Executor.Visible = false
 	end)
 end
-coroutine.wrap(DAPCQKD_fake_script)()
-local function ROSYH_fake_script() -- Tab3.Tab3 
+coroutine.wrap(MRPAS_fake_script)()
+local function GANQ_fake_script() -- Tab3.Tab3 
 	local script = Instance.new('LocalScript', Tab3)
 
 	script.Parent.Activated:Connect(function()
@@ -1164,8 +1164,8 @@ local function ROSYH_fake_script() -- Tab3.Tab3
 		tabs.Executor.Visible = false
 	end)
 end
-coroutine.wrap(ROSYH_fake_script)()
-local function AKBKT_fake_script() -- Tab6.Tab6 
+coroutine.wrap(GANQ_fake_script)()
+local function EQVTX_fake_script() -- Tab6.Tab6 
 	local script = Instance.new('LocalScript', Tab6)
 
 	script.Parent.Activated:Connect(function()
@@ -1182,8 +1182,8 @@ local function AKBKT_fake_script() -- Tab6.Tab6
 		tabs.Executor.Visible = false
 	end)
 end
-coroutine.wrap(AKBKT_fake_script)()
-local function RIHZJU_fake_script() -- Tab5.Tab5 
+coroutine.wrap(EQVTX_fake_script)()
+local function GOYZJKW_fake_script() -- Tab5.Tab5 
 	local script = Instance.new('LocalScript', Tab5)
 
 	script.Parent.Activated:Connect(function()
@@ -1200,8 +1200,8 @@ local function RIHZJU_fake_script() -- Tab5.Tab5
 		tabs.Executor.Visible = false
 	end)
 end
-coroutine.wrap(RIHZJU_fake_script)()
-local function UENT_fake_script() -- Executor.Executor 
+coroutine.wrap(GOYZJKW_fake_script)()
+local function JHIWGD_fake_script() -- Executor.Executor 
 	local script = Instance.new('LocalScript', Executor)
 
 	script.Parent.Activated:Connect(function()
@@ -1217,8 +1217,8 @@ local function UENT_fake_script() -- Executor.Executor
 		tabs.Executor.Visible = true
 	end)
 end
-coroutine.wrap(UENT_fake_script)()
-local function QIFTJC_fake_script() -- Tab7.Tab7 
+coroutine.wrap(JHIWGD_fake_script)()
+local function GQTH_fake_script() -- Tab7.Tab7 
 	local script = Instance.new('LocalScript', Tab7)
 
 	script.Parent.Activated:Connect(function()
@@ -1235,8 +1235,8 @@ local function QIFTJC_fake_script() -- Tab7.Tab7
 		tabs.Executor.Visible = false
 	end)
 end
-coroutine.wrap(QIFTJC_fake_script)()
-local function RYZKP_fake_script() -- _15SecondTSButton.ButtonManager 
+coroutine.wrap(GQTH_fake_script)()
+local function MYBAUCD_fake_script() -- _15SecondTSButton.ButtonManager 
 	local script = Instance.new('LocalScript', _15SecondTSButton)
 
 	local on = false
@@ -1270,8 +1270,8 @@ local function RYZKP_fake_script() -- _15SecondTSButton.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(RYZKP_fake_script)()
-local function RARS_fake_script() -- AntiTSButton.ButtonManager 
+coroutine.wrap(MYBAUCD_fake_script)()
+local function SDORLQ_fake_script() -- AntiTSButton.ButtonManager 
 	local script = Instance.new('LocalScript', AntiTSButton)
 
 	local on = false
@@ -1383,8 +1383,8 @@ local function RARS_fake_script() -- AntiTSButton.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(RARS_fake_script)()
-local function HGLTZK_fake_script() -- BlockGlitch_2.ButtonManager 
+coroutine.wrap(SDORLQ_fake_script)()
+local function ATGJWIG_fake_script() -- BlockGlitch_2.ButtonManager 
 	local script = Instance.new('LocalScript', BlockGlitch_2)
 
 	local on = false
@@ -1423,31 +1423,31 @@ local function HGLTZK_fake_script() -- BlockGlitch_2.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(HGLTZK_fake_script)()
-local function LBAWCYB_fake_script() -- Execute.LocalScript 
+coroutine.wrap(ATGJWIG_fake_script)()
+local function ALIPUOR_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
 
 	script.Parent.Activated:Connect(function()
 		loadstring(script.Parent.Parent.TextBox.Text)
 	end)
 end
-coroutine.wrap(LBAWCYB_fake_script)()
-local function HOBMDMF_fake_script() -- Clear.LocalScript 
+coroutine.wrap(ALIPUOR_fake_script)()
+local function FQQWMC_fake_script() -- Clear.LocalScript 
 	local script = Instance.new('LocalScript', Clear)
 
 	script.Parent.Activated:Connect(function()
 		script.Parent.Parent.TextBox.Text = "--WRITE YOUR SCRIPT"
 	end)
 end
-coroutine.wrap(HOBMDMF_fake_script)()
-local function YAXOSUP_fake_script() -- Welcome.LocalScript 
+coroutine.wrap(FQQWMC_fake_script)()
+local function VDGGQ_fake_script() -- Welcome.LocalScript 
 	local script = Instance.new('LocalScript', Welcome)
 
 	local lp = game.Players.LocalPlayer
 	script.Parent.Text = "Welcome, "..lp.Name.."!"
 end
-coroutine.wrap(YAXOSUP_fake_script)()
-local function PMFK_fake_script() -- Quote.LocalScript 
+coroutine.wrap(VDGGQ_fake_script)()
+local function LBOOVMY_fake_script() -- Quote.LocalScript 
 	local script = Instance.new('LocalScript', Quote)
 
 	local numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
@@ -1476,8 +1476,8 @@ local function PMFK_fake_script() -- Quote.LocalScript
 		script.Parent.Text = "Ready to kill?"
 	end
 end
-coroutine.wrap(PMFK_fake_script)()
-local function ASQK_fake_script() -- STWRTZButton.ButtonManager 
+coroutine.wrap(LBOOVMY_fake_script)()
+local function UZHM_fake_script() -- STWRTZButton.ButtonManager 
 	local script = Instance.new('LocalScript', STWRTZButton)
 
 	local on = false
@@ -1539,8 +1539,8 @@ local function ASQK_fake_script() -- STWRTZButton.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(ASQK_fake_script)()
-local function YHEIDJD_fake_script() -- STWRTZButton_2.ButtonManager 
+coroutine.wrap(UZHM_fake_script)()
+local function QBDY_fake_script() -- STWRTZButton_2.ButtonManager 
 	local script = Instance.new('LocalScript', STWRTZButton_2)
 
 	local on = false
@@ -1593,8 +1593,8 @@ local function YHEIDJD_fake_script() -- STWRTZButton_2.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(YHEIDJD_fake_script)()
-local function LLAM_fake_script() -- D4CClonesButton.ButtonManager 
+coroutine.wrap(QBDY_fake_script)()
+local function ZFDFY_fake_script() -- D4CClonesButton.ButtonManager 
 	local script = Instance.new('LocalScript', D4CClonesButton)
 
 	local on = false
@@ -1685,8 +1685,8 @@ local function LLAM_fake_script() -- D4CClonesButton.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(LLAM_fake_script)()
-local function IKSS_fake_script() -- ESplashButton.ButtonManager 
+coroutine.wrap(ZFDFY_fake_script)()
+local function MXSQENO_fake_script() -- ESplashButton.ButtonManager 
 	local script = Instance.new('LocalScript', ESplashButton)
 
 	local on = false
@@ -1707,8 +1707,8 @@ local function IKSS_fake_script() -- ESplashButton.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(IKSS_fake_script)()
-local function ORKBZX_fake_script() -- ESplashButton_2.ButtonManager 
+coroutine.wrap(MXSQENO_fake_script)()
+local function WJPLT_fake_script() -- ESplashButton_2.ButtonManager 
 	local script = Instance.new('LocalScript', ESplashButton_2)
 
 	local on = false
@@ -1729,8 +1729,8 @@ local function ORKBZX_fake_script() -- ESplashButton_2.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(ORKBZX_fake_script)()
-local function KINV_fake_script() -- ESplashButton_3.ButtonManager 
+coroutine.wrap(WJPLT_fake_script)()
+local function EHJSS_fake_script() -- ESplashButton_3.ButtonManager 
 	local script = Instance.new('LocalScript', ESplashButton_3)
 
 	local on = false
@@ -1751,8 +1751,8 @@ local function KINV_fake_script() -- ESplashButton_3.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(KINV_fake_script)()
-local function JAJHLXH_fake_script() -- ESplashButton_4.ButtonManager 
+coroutine.wrap(EHJSS_fake_script)()
+local function VQAVV_fake_script() -- ESplashButton_4.ButtonManager 
 	local script = Instance.new('LocalScript', ESplashButton_4)
 
 	local ESB = script.Parent
@@ -1778,6 +1778,15 @@ local function JAJHLXH_fake_script() -- ESplashButton_4.ButtonManager
 						}
 						game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Input"):FireServer(unpack(args))
 					end
+					if ip.KeyCode == Enum.KeyCode.K then
+						local hiloop = true
+						while hiloop == true do
+							wait()
+							game.Workspace:WaitForChild("Effects"):ClearAllChildren()
+							wait(1)
+							hiloop = false
+						end
+					end
 				end)
 			end
 		elseif on == true then
@@ -1789,8 +1798,8 @@ local function JAJHLXH_fake_script() -- ESplashButton_4.ButtonManager
 	end)
 	
 end
-coroutine.wrap(JAJHLXH_fake_script)()
-local function REEXVZ_fake_script() -- ESplashButton_5.ButtonManager 
+coroutine.wrap(VQAVV_fake_script)()
+local function IGOTCLB_fake_script() -- ESplashButton_5.ButtonManager 
 	local script = Instance.new('LocalScript', ESplashButton_5)
 
 	local on = false
@@ -1811,8 +1820,8 @@ local function REEXVZ_fake_script() -- ESplashButton_5.ButtonManager
 		end
 	end)
 end
-coroutine.wrap(REEXVZ_fake_script)()
-local function JEVP_fake_script() -- ReduceLag.ReduceLag 
+coroutine.wrap(IGOTCLB_fake_script)()
+local function PCRO_fake_script() -- ReduceLag.ReduceLag 
 	local script = Instance.new('LocalScript', ReduceLag)
 
 	script.Parent.Activated:Connect(function()
@@ -1839,8 +1848,8 @@ local function JEVP_fake_script() -- ReduceLag.ReduceLag
 	end)
 	
 end
-coroutine.wrap(JEVP_fake_script)()
-local function RHJTMSS_fake_script() -- DeleteFire.DeleteFire 
+coroutine.wrap(PCRO_fake_script)()
+local function MNMRMAU_fake_script() -- DeleteFire.DeleteFire 
 	local script = Instance.new('LocalScript', DeleteFire)
 
 	script.Parent.Activated:Connect(function()
@@ -1849,8 +1858,8 @@ local function RHJTMSS_fake_script() -- DeleteFire.DeleteFire
 	end)
 	
 end
-coroutine.wrap(RHJTMSS_fake_script)()
-local function QJPKKXQ_fake_script() -- AttemptServerside.AttemptServerside 
+coroutine.wrap(MNMRMAU_fake_script)()
+local function OHYTCHZ_fake_script() -- AttemptServerside.AttemptServerside 
 	local script = Instance.new('LocalScript', AttemptServerside)
 
 	script.Parent.Activated:Connect(function()
@@ -1859,8 +1868,8 @@ local function QJPKKXQ_fake_script() -- AttemptServerside.AttemptServerside
 		end
 	end)
 end
-coroutine.wrap(QJPKKXQ_fake_script)()
-local function HPDWBD_fake_script() -- RespawnSameSpot.RespawnSameSpot 
+coroutine.wrap(OHYTCHZ_fake_script)()
+local function PEUI_fake_script() -- RespawnSameSpot.RespawnSameSpot 
 	local script = Instance.new('LocalScript', RespawnSameSpot)
 
 	local vals = false
@@ -1890,8 +1899,8 @@ local function HPDWBD_fake_script() -- RespawnSameSpot.RespawnSameSpot
 	end
 	end)
 end
-coroutine.wrap(HPDWBD_fake_script)()
-local function GWDDB_fake_script() -- Settings_2.Settings 
+coroutine.wrap(PEUI_fake_script)()
+local function EQUL_fake_script() -- Settings_2.Settings 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	script.Parent.Activated:Connect(function()
@@ -1908,16 +1917,16 @@ local function GWDDB_fake_script() -- Settings_2.Settings
 		tabs.Executor.Visible = false
 	end)
 end
-coroutine.wrap(GWDDB_fake_script)()
-local function WXAFXTR_fake_script() -- Close.Exit 
+coroutine.wrap(EQUL_fake_script)()
+local function UUODHH_fake_script() -- Close.Exit 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.Activated:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(WXAFXTR_fake_script)()
-local function UUBS_fake_script() -- Minimize.Minimize 
+coroutine.wrap(UUODHH_fake_script)()
+local function KKMZGD_fake_script() -- Minimize.Minimize 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.Activated:Connect(function()
@@ -1925,56 +1934,56 @@ local function UUBS_fake_script() -- Minimize.Minimize
 		script.Parent.Parent.Parent.FullView.Visible = true
 	end)
 end
-coroutine.wrap(UUBS_fake_script)()
-local function BSILA_fake_script() -- IY.IYLoadstring 
+coroutine.wrap(KKMZGD_fake_script)()
+local function AFDQRJ_fake_script() -- IY.IYLoadstring 
 	local script = Instance.new('LocalScript', IY)
 
 	script.Parent.Activated:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(BSILA_fake_script)()
-local function VSMV_fake_script() -- Dex.DexLoadstring 
+coroutine.wrap(AFDQRJ_fake_script)()
+local function LPQMN_fake_script() -- Dex.DexLoadstring 
 	local script = Instance.new('LocalScript', Dex)
 
 	script.Parent.Activated:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 	end)
 end
-coroutine.wrap(VSMV_fake_script)()
-local function JZENW_fake_script() -- Rspy.RspyLoadstring 
+coroutine.wrap(LPQMN_fake_script)()
+local function VSKQT_fake_script() -- Rspy.RspyLoadstring 
 	local script = Instance.new('LocalScript', Rspy)
 
 	script.Parent.Activated:Connect(function()
 		loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
 	end)
 end
-coroutine.wrap(JZENW_fake_script)()
-local function LCTMNKH_fake_script() -- SAF.SAFLoadstring 
+coroutine.wrap(VSKQT_fake_script)()
+local function ZFUX_fake_script() -- SAF.SAFLoadstring 
 	local script = Instance.new('LocalScript', SAF)
 
 	script.Parent.Activated:Connect(function()
 		loadstring(game:HttpGet("pastebin.com/RQUtiQkH"))()
 	end)
 end
-coroutine.wrap(LCTMNKH_fake_script)()
-local function GUYRID_fake_script() -- HBEGUI.HBEGUILoadstring 
+coroutine.wrap(ZFUX_fake_script)()
+local function LVMSWL_fake_script() -- HBEGUI.HBEGUILoadstring 
 	local script = Instance.new('LocalScript', HBEGUI)
 
 	script.Parent.Activated:Connect(function()
 	print("Unavailable at this time.")
 	end)
 end
-coroutine.wrap(GUYRID_fake_script)()
-local function DMQQ_fake_script() -- NA.NALoadstring 
+coroutine.wrap(LVMSWL_fake_script)()
+local function BUGCVV_fake_script() -- NA.NALoadstring 
 	local script = Instance.new('LocalScript', NA)
 
 	script.Parent.Activated:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
 	end)
 end
-coroutine.wrap(DMQQ_fake_script)()
-local function AHUEDGX_fake_script() -- Sidebar.ConstantCheck 
+coroutine.wrap(BUGCVV_fake_script)()
+local function OZRSIX_fake_script() -- Sidebar.ConstantCheck 
 	local script = Instance.new('LocalScript', Sidebar)
 
 	script.Parent.Parent.SHub.Activated:Connect(function()
@@ -1995,8 +2004,8 @@ local function AHUEDGX_fake_script() -- Sidebar.ConstantCheck
 		
 	end)
 end
-coroutine.wrap(AHUEDGX_fake_script)()
-local function VQSXAEZ_fake_script() -- Home_2.Home 
+coroutine.wrap(OZRSIX_fake_script)()
+local function NYIZ_fake_script() -- Home_2.Home 
 	local script = Instance.new('LocalScript', Home_2)
 
 	script.Parent.Activated:Connect(function()
@@ -2013,8 +2022,8 @@ local function VQSXAEZ_fake_script() -- Home_2.Home
 		tabs.Executor.Visible = false
 	end)
 end
-coroutine.wrap(VQSXAEZ_fake_script)()
-local function WOJT_fake_script() -- Clock.ClockUpdate 
+coroutine.wrap(NYIZ_fake_script)()
+local function VBKYCQ_fake_script() -- Clock.ClockUpdate 
 	local script = Instance.new('LocalScript', Clock)
 
 	while true do
@@ -2024,8 +2033,8 @@ local function WOJT_fake_script() -- Clock.ClockUpdate
 	end
 	
 end
-coroutine.wrap(WOJT_fake_script)()
-local function HIGJDYS_fake_script() -- ProfilePicture.SetToPFP 
+coroutine.wrap(VBKYCQ_fake_script)()
+local function BRMEPU_fake_script() -- ProfilePicture.SetToPFP 
 	local script = Instance.new('LocalScript', ProfilePicture)
 
 	local player = game.Players.LocalPlayer
@@ -2034,8 +2043,8 @@ local function HIGJDYS_fake_script() -- ProfilePicture.SetToPFP
 	imageLabel.Image = playerThumbnail
 	
 end
-coroutine.wrap(HIGJDYS_fake_script)()
-local function CYIFY_fake_script() -- FullView.Return 
+coroutine.wrap(BRMEPU_fake_script)()
+local function AZPI_fake_script() -- FullView.Return 
 	local script = Instance.new('LocalScript', FullView)
 
 	script.Parent.Activated:Connect(function()
@@ -2043,4 +2052,4 @@ local function CYIFY_fake_script() -- FullView.Return
 		script.Parent.Parent.Frame.Visible = true
 	end)
 end
-coroutine.wrap(CYIFY_fake_script)()
+coroutine.wrap(AZPI_fake_script)()
